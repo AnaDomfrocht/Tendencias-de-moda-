@@ -173,11 +173,12 @@ margin: 10px; padding: 0;
 }
 
 .tendencias-titulo img {
-  width: 550px;
+  width: 255px;
 }
 
 .tendencias-titulo h1,
 .tendencias-titulo h2 {
+font-size: 140%;
   text-align: right;
   margin: 30px; padding: 0px;
 }
