@@ -1,0 +1,289 @@
+/*'PT Serif Caption', serif;*/
+/*font*/
+/* #734837 marron
+#d9c981 beige
+#d67770 rosa
+#9e7355 rosa marron
+#b5ac7a gris*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+
+html {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 120%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    text-align: center;
+}
+
+header img{
+    width: 185px;
+}
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+
+nav ul li a:hover {
+  color: rgb(167, 98, 78);
+}
+  
+.titulo-index{
+    text-align: center;
+    background-image: url(../medios/portada-header.webp);
+    height: 250px;
+    background-size: cover;
+   background-repeat: no-repeat;
+   text-shadow: 1px -1px 25px rgb(0, 0, 0,);
+   color: beige;
+   padding: 350px; margin: 0px;
+   font-size: 2rem;
+}
+
+.about-us{
+    background-color: #734837;
+    color: white;
+    margin: 25px; padding: 0px;
+}
+
+.about-us h2{
+   text-align: center;
+    color: white;
+}
+
+
+
+.inspiraciones img{
+    width: 300px;
+}
+
+.inspiraciones h3{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    margin: 25px; padding: 0px;
+}
+
+.div-padre-flex{    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-padre-flex div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tendencias-2023 h4{
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: underline;
+    margin: 25px; padding: 0px;
+}
+
+.tendencias-2023 img{
+    width: 34%;
+    margin: 15px; padding: 0px;
+}
+
+.tendencias-2023 h5{
+    font-size: 20px;
+}
+
+
+.tendencias-2023 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .introduccion-tendencias,
+  .trend-uno,
+  .trend-dos,
+  .trend-tres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .trend-uno img,
+  .trend-dos img,
+  .trend-tres img {
+    margin-left: auto;
+  }
+  
+  .trend-uno h5,
+  .trend-dos h5,
+  .trend-tres h5 {
+    margin-right: auto;
+  }
+  
+.trend-uno{
+    margin-left: auto;
+    background-color: #FFA0C2;
+    margin: 10px; padding: 0;
+}
+
+.trend-dos{
+background-color: #b7c69e;
+margin: 10px; padding: 0;
+}
+
+.trend-tres{
+    background-color: #9AC5F4;
+    margin: 10px; padding: 0;
+}
+
+/* Pagina Tendencias */
+
+.tendencias-titulo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tendencias-titulo img {
+  width: 550px;
+}
+
+.tendencias-titulo h1,
+.tendencias-titulo h2 {
+  text-align: right;
+  margin: 30px; padding: 0px;
+}
+
+.Tendencias-lista ol {
+  list-style-type: decimal;
+  font-weight: bold;
+  margin: 30px; padding: 0px;
+}
+
+.tendencias-metalicos {
+  text-align: center;
+}
+
+.tendencias-metalicos h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.tendencias-metalicos p{
+  text-align: justify;
+  margin: 40px; padding: 0px;
+}
+
+.tendencias-metalicos img {
+  width: 220px;
+}
+.tendencias-metalicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tend-y2k {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tend-y2k img{
+  width: 200px;
+}
+
+
+
+.grid-titulo-2 { 
+  text-align: right;
+}
+
+.contenedor-grid img{
+  width: 400px;
+}
+.grid-img-1 {
+  width: 170px;
+}
+.contenedor-grid {
+  display: grid;
+  grid-template-areas:
+    "h1 h1 ."
+    "p1 p1 ."
+    "p2 p2 ."
+    "p3 p3 ."
+    "h2 h2 ."
+    "img1 img2 img4";
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-titulo-1 {
+  grid-area: h1;
+  text-decoration: underline;
+}
+
+.grid-p-1 {
+  grid-area: p1;
+}
+
+.grid-p-2 {
+  grid-area: p2;
+}
+
+.grid-p-3 {
+  grid-area: p3;
+}
+
+.grid-titulo-2 {
+  grid-area: h2;
+}
+
+.grid-img-1 {
+  grid-area: img1;
+}
+
+.grid-img-2 {
+  grid-area: img2;
+}
+
+.grid-img-4 {
+  grid-area: img4;
+}
+
+
+
+
+
+
+
+
+
+
