@@ -1,0 +1,51 @@
+.titulo-novedades {
+  margin: 40px; padding: 0px; 
+    h1 {
+      color: black;
+      text-align: center;
+    }
+  
+    p {
+      color: black;
+      text-align: center;
+    }
+  }
+  
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+    .grid-item17,
+    .grid-item18,
+    .grid-item19,
+    .grid-item20,
+    .grid-item21,
+    .grid-item22 {
+      font-size: 20%;
+      text-align: center;
+      border: 5px solid rgba(255, 0, 255, 0.288);
+      width: 100%;
+  
+      img {
+        width: 500px;
+        height: auto;
+        object-fit: cover;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .grid-container2 {
+        // Estilos para dispositivos móviles
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .grid-container2 {
+        // Estilos para pantallas más grandes
+      }
+    }

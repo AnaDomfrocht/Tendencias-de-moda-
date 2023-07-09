@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap");
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  text-align: center;
+}
+header img {
+  width: 185px;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {
+  margin-left: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: rgb(167, 98, 78);
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .social-media {
+  display: flex;
+  align-items: center;
+}
+footer .social-media a {
+  margin-left: 10px;
+}
+footer .social-media img {
+  width: 50px;
+  height: 50px;
+}
+
+.contenedor-grid {
+  margin: 40px;
+  padding: 0px;
+  display: grid;
+  grid-template-areas: "h1 h1 ." "p1 p1 ." "p2 p2 ." "p3 p3 ." "h2 h2 ." "img1 img2 img4";
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contenedor-grid .grid-titulo-1 {
+  grid-area: h1;
+  text-decoration: underline;
+  font-size: 190%;
+}
+.contenedor-grid .grid-p-1 {
+  grid-area: p1;
+}
+.contenedor-grid .grid-p-2 {
+  grid-area: p2;
+}
+.contenedor-grid .grid-p-3 {
+  grid-area: p3;
+}
+.contenedor-grid .grid-titulo-2 {
+  grid-area: h2;
+  text-align: center;
+  font-size: 150%;
+}
+.contenedor-grid .grid-img-1 {
+  grid-area: img1;
+  width: 300px;
+  text-align: center;
+}
+.contenedor-grid .grid-img-2 {
+  grid-area: img2;
+  width: 350px;
+}
+.contenedor-grid .grid-img-4 {
+  grid-area: img4;
+  width: 350px;
+}
+
+.titulo-index {
+  text-align: center;
+  background-image: url(../medios/portada-header.webp);
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 1px -1px 25px rgb(0, 0, 0);
+  color: beige;
+  padding: 350px;
+  margin: 0px;
+  font-size: 1rem;
+}
+
+.about-us {
+  background-color: #734837;
+  color: white;
+  margin: 25px;
+  padding: 0;
+}
+.about-us h2 {
+  text-align: center;
+  text-decoration: overline;
+  color: white;
+}
+
+.inspiraciones img {
+  width: 300px;
+}
+.inspiraciones h3 {
+  text-align: center;
+  color: black;
+  margin: 25px;
+  padding: 0;
+}
+
+.div-padre-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.div-padre-flex div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tendencias-2023 {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tendencias-2023 h4 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 25px;
+  padding: 0;
+}
+.tendencias-2023 img {
+  width: 34%;
+  margin: 15px;
+  padding: 0;
+}
+.tendencias-2023 h5 {
+  font-size: 20px;
+}
+.tendencias-2023 .introduccion-tendencias,
+.tendencias-2023 .trend-uno,
+.tendencias-2023 .trend-dos,
+.tendencias-2023 .trend-tres {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.tendencias-2023 .trend-uno,
+.tendencias-2023 .trend-dos,
+.tendencias-2023 .trend-tres {
+  margin-left: auto;
+}
+.tendencias-2023 .trend-uno {
+  background-color: #FFA0C2;
+  margin: 10px;
+  padding: 0;
+}
+.tendencias-2023 .trend-dos {
+  background-color: #b7c69e;
+  margin: 10px;
+  padding: 0;
+}
+.tendencias-2023 .trend-tres {
+  background-color: #9AC5F4;
+  margin: 10px;
+  padding: 0;
+}
+
+.tendencias-titulo {
+  margin: 40px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.tendencias-titulo img {
+  width: 255px;
+}
+.tendencias-titulo h1,
+.tendencias-titulo h2 {
+  font-size: 140%;
+  text-align: right;
+  margin: 30px;
+  padding: 0px;
+}
+
+.Tendencias-lista ol {
+  list-style-type: decimal;
+  font-weight: bold;
+  margin: 30px;
+  padding: 0px;
+}
+
+.tendencias-metalicos {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tendencias-metalicos h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.tendencias-metalicos p {
+  text-align: justify;
+  margin: 40px;
+  padding: 0px;
+}
+.tendencias-metalicos img {
+  width: 220px;
+}
+
+.tentendencias-y2k img {
+  width: 200%;
+  text-align: center;
+}
+
+.titulo-portfolio {
+  margin: 40px;
+  padding: 0px;
+}
+.titulo-portfolio h1 {
+  color: #FFA0C2;
+  text-align: center;
+}
+.titulo-portfolio p {
+  color: #734837;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 20px;
+  padding: 0px;
+}
+.grid-container img {
+  width: 290px;
+  object-fit: cover;
+  margin: 20px;
+  padding: 0;
+}
+
+.titulo-novedades {
+  margin: 40px;
+  padding: 0px;
+}
+.titulo-novedades h1 {
+  color: black;
+  text-align: center;
+}
+.titulo-novedades p {
+  color: black;
+  text-align: center;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item17,
+.grid-item18,
+.grid-item19,
+.grid-item20,
+.grid-item21,
+.grid-item22 {
+  font-size: 20%;
+  text-align: center;
+  border: 5px solid rgba(255, 0, 255, 0.288);
+  width: 100%;
+}
+.grid-item17 img,
+.grid-item18 img,
+.grid-item19 img,
+.grid-item20 img,
+.grid-item21 img,
+.grid-item22 img {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+.grid-item17 h2,
+.grid-item18 h2,
+.grid-item19 h2,
+.grid-item20 h2,
+.grid-item21 h2,
+.grid-item22 h2 {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

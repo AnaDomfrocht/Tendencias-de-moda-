@@ -1,0 +1,29 @@
+.titulo-portfolio {
+    margin: 40px; padding: 0px;
+
+    h1{
+        color: #FFA0C2;
+        text-align: center;
+    }
+    p{
+        color: $marron;
+    }
+}
+
+.grid-container {
+    img {
+      width: 290px;
+      object-fit: cover;
+      margin: 20px;
+      padding: 0
+    }
+  
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 20px;
+    padding: 0px;
+}

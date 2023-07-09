@@ -1,0 +1,63 @@
+.tendencias-titulo {
+  margin: 40px; padding: 0px;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+    img {
+      width: 255px;
+    }
+  
+    h1,
+    h2 {
+      font-size: 140%;
+      text-align: right;
+      margin: 30px;
+      padding: 0px;
+    }
+  }
+  
+  .Tendencias-lista {
+    ol {
+      list-style-type: decimal;
+      font-weight: bold;
+      margin: 30px;
+      padding: 0px;
+    }
+  }
+  
+  .tendencias-metalicos {
+    text-align: center;
+  
+    h3 {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  
+    p {
+      text-align: justify;
+      margin: 40px;
+      padding: 0px;
+    }
+  
+    img {
+      width: 220px;
+    }
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .tentendencias-y2k{
+    
+    img {
+      width: 200%;
+      text-align: center;
+    }
+
+  }
+ 
+  
