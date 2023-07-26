@@ -1,24 +1,16 @@
 .tendencias-titulo {
   margin: 40px; padding: 0px;
   
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  
-    img {
-      width: 255px;
-    }
-  
-    h1,
-    h2 {
-      font-size: 140%;
-      text-align: right;
+    h1 {
+      color: #f07cac;
+      font-size: 1.7rem;
+      text-align: center;
       margin: 30px;
       padding: 0px;
     }
   }
   
-  .Tendencias-lista {
+  .tendencias-lista {
     ol {
       list-style-type: decimal;
       font-weight: bold;
@@ -30,7 +22,7 @@
   .tendencias-metalicos {
     text-align: center;
   
-    h3 {
+    h2 {
       font-weight: bold;
       text-decoration: underline;
     }
@@ -58,6 +50,5 @@
       text-align: center;
     }
 
-  }
- 
-  
+  } 
+

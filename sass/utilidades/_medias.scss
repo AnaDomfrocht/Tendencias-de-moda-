@@ -1,0 +1,338 @@
+@media screen and (max-width: 500px) {
+  img {
+    width: 150px; 
+  }
+
+  nav {
+    ul {
+      li {
+        margin-left: 5px; 
+      }
+    }
+  }
+}
+/* index media querie para dispositivos mobile */
+@media only screen and (max-width: 500px) {
+  .titulo-index {
+    height: 150px;
+    padding: 80px 0; 
+  }
+
+  .about-us {
+    padding: 10px; 
+  }
+
+  .div-padre-flex {
+    flex-direction: column; 
+  }
+
+  .trend-uno,
+  .trend-dos,
+  .trend-tres {
+    width: 100%; 
+    margin: 10px 0; 
+  }
+}
+
+/* index media querie para dispositivos tablets */
+@media only screen and (min-width: 500px) and (max-width: 978px) {
+  .titulo-index {
+    height: 200px;
+    padding: 80px 0;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .about-us {
+    padding: 15px; 
+  }
+
+  .trend-uno,
+  .trend-dos,
+  .trend-tres {
+    width: 30%;
+  }
+}
+
+/* contacto. media querie para dispositivos mobile */
+@media only screen and (max-width: 500px) {
+  .contenedor-grid {
+    grid-template-areas:
+      "h1"
+      "p1"
+      "p2"
+      "p3"
+      "h2"
+      "img1"
+      "img2"
+      "img4";
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    .grid-titulo-1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.70rem;
+    }
+
+    .grid-titulo-2 {
+      font-size: 0.80rem;
+    }
+
+    .grid-img-1,
+    .grid-img-2,
+    .grid-img-4 {
+      width: 100%;
+    }
+  }
+}
+/* contacto. media querie para dispositivos tablets */
+@media (min-width: 500px) and (max-width: 978px) {
+  .contenedor-grid {
+    grid-template-areas:
+      "h1 h1"
+      "p1 p1"
+      "p2 p2"
+      "p3 p3"
+      "h2 h2"
+      "img1 img1"
+      "img2 img2"
+      "img4 img4";
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    .grid-titulo-1 {
+      font-size: 150%;
+    }
+
+    .grid-img-1,
+    .grid-img-2,
+    .grid-img-4 {
+      width: 100%;
+    }
+  }
+}
+/* novedades media queries para dispositivos mobile */
+@media only screen and (max-width: 500px) {
+  .grid-item17,
+  .grid-item18,
+  .grid-item19,
+  .grid-item20,
+  .grid-item21,
+  .grid-item22 {
+    text-align: center;
+    border: 5px solid rgba(255, 0, 255, 0.288);
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+/* novedades media querie para dispositivos tablets */
+@media only screen and (min-width: 500px) and (max-width: 978px) {
+  .titulo-novedades {
+    font-size: 1.5rem;
+  }
+
+  .grid-container2 {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px;
+    padding: 0;
+  }
+
+  .grid-item17,
+  .grid-item18,
+  .grid-item19,
+  .grid-item20,
+  .grid-item21,
+  .grid-item22 {
+    text-align: center;
+    border: 5px solid rgba(255, 0, 255, 0.288);
+    width: 100%;
+
+    img {
+      width: 90%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* portfolio media querie para dispositivos mobile */
+@media only screen and (max-width: 500px) {
+  .grid-container {
+    img {
+      max-width: 100%;
+      width: 75%;
+    }
+  }
+}
+/* portfolio media query para dispositivos tablets */
+@media screen and (min-width: 500px) and (max-width: 978px) {
+  .titulo-portfolio {
+    h1 {
+      font-size: 2.8rem;
+    }
+  }
+
+  .grid-container {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 20px; 
+    margin: 0 auto; 
+  }
+}
+
+/* tendencias media querie para dispositivos mobile */
+@media only screen and (max-width: 500px) {
+  .tendencias-titulo {
+    margin: 15px; 
+    h1 {
+      font-size: 1.3rem; 
+      margin: 20px; 
+    }
+  }
+
+  .Tendencias-lista {
+    font-size: 0.85rem; 
+    padding: 0 10px; 
+  }
+
+  .tendencias-metalicos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 1.2rem; 
+      margin: 10px; 
+    }
+
+    img {
+      width: 100%; 
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .tendencias-y2k {
+    img {
+      width: 100%; 
+    }
+  }
+}
+/* tendencias media querie para dispositivos tablets */
+@media (min-width: 500px) and (max-width: 978px) {
+  .tendencias-metalicos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+    h3 {
+      font-weight: bold;
+      text-decoration: underline;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .imagenes-container {
+      display: flex;
+      justify-content: center;
+    }
+
+      img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 5px;
+      }
+}
+
+/* Media query para tamaño mobile (máximo de 500px) */
+@media only screen and (max-width: 500px) {
+  .footer-links {
+    font-size: 12px;
+
+    a {
+      padding: 3px 8px;
+    }
+
+    .footer-name {
+      font-size: 14px;
+    }
+
+    p {
+      margin: 3px 0;
+    }
+
+    .footer-icons {
+      margin-top: 15px;
+
+      a {
+        margin: 0 5px;
+
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) and (max-width: 978px) {
+  .footer-links {
+    font-size: 13px;
+
+    a {
+      padding: 5px 10px;
+      text-align: center;
+    }
+
+    .footer-name {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    p {
+      margin: 5px 0;
+      text-align: center;
+    }
+
+    .footer-icons {
+      margin-top: 20px;
+
+      a {
+        margin: 0 7px;
+
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+
+

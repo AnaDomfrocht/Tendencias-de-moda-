@@ -1,16 +1,13 @@
-
-
-
 .titulo-index{
     text-align: center;
     background-image: url(../medios/portada-header.webp);
-    height: 250px;
+    height: 83%;
     background-size: cover;
    background-repeat: no-repeat;
    text-shadow: 1px -1px 25px rgb(0, 0, 0,);
    color: beige;
    padding: 350px; margin: 0px;
-   font-size: 1rem;
+   font-size: 1.5rem;
 }
 
 .about-us {
@@ -21,14 +18,13 @@
   
     h2 {
       text-align: center;
-      text-decoration: overline;
       color: white;
     }
   }
   
   .inspiraciones {
     img {
-      width: 300px;
+      width: 80%;
     }
   
     h3 {

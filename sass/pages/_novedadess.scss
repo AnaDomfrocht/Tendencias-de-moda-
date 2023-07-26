@@ -1,3 +1,4 @@
+
 .titulo-novedades {
   margin: 40px; padding: 0px; 
     h1 {
@@ -29,7 +30,7 @@
       width: 100%;
   
       img {
-        width: 500px;
+        width: 90%;
         height: auto;
         object-fit: cover;
       }
@@ -38,14 +39,4 @@
       }
     }
 
-    @media (max-width: 768px) {
-      .grid-container2 {
-        // Estilos para dispositivos móviles
-      }
-    }
-    
-    @media (min-width: 768px) {
-      .grid-container2 {
-        // Estilos para pantallas más grandes
-      }
-    }
+ 
